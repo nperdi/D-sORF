@@ -9,7 +9,7 @@ Installation
 git clone https://github.com/nperdi/D-sORF.git
 
 2. Go to D-sORF directory
-cd D-sORF
+  cd D-sORF
 
 2. Create and activate a Conda virtual environment:
 conda create --name dsorfEnv python=3.8
