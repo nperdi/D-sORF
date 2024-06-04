@@ -33,14 +33,13 @@ Example
 ---------------
 python DsORF_init.py examples/test.fa testOutput/ 4 1 8 N conf/sORFconfig.cfg  0
 
-
-
-
 Acknowledgments
 ---------------
 This program was developed by Nikos Perdikopanis.
-Publication:D-sORF: 
-Accurate ab initio classification of experimentally detected sORFs .
+
+Publication:
 ---------------
+D-sORF: Accurate ab initio classification of experimentally detected sORFs .
+
 
 
