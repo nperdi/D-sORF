@@ -28,16 +28,31 @@ conda install scikit-learn=1.0.2
 Usage
 ---------------
 Run the program using the following command:
+
 python DsORF_init.py $inputFileName $outputDir $numOfProcess $mode $startingPos $bypassSignalPeptide $configFileName $simulateLength
 Parameters
-inputFileName: Path to the input file containing genetic sequences.
-outputDir: Directory where the output files will be saved.
+
+inputFileName: Path to the input FASTA file containing genetic sequences.
+
+outputDir: Directory where the output files will be saved. (will be created in D-sORF/output directory
+
 numOfProcess: Number of processes to use for parallel processing.
-mode: Mode of operation (e.g., 'batch', 'single').
-startingPos: Starting position for dORF search.
-bypassSignalPeptide: Flag to bypass signal peptide detection.
-configFileName: Path to the configuration file.
-simulateLength: Length to simulate the ORF.
+
+mode: model used 
+1 for TIS and CP combination,  
+2 for  CP 
+3 for TIS only 
+
+startingPos: position of first letter of start codon (e.g. A of (A)TG ). In case there is an upstream regions of sequence
+
+bypassSignalPeptide: Flag to bypass signal peptide region  
+Y for bypass 
+N(default) to not bypass 
+
+configFileName: Path to the configuration file (for future extention  with models for other species).
+
+simulateLength: Length of ORF to process. Default utilize all length for feature extraction
+
 
 Example
 ---------------
