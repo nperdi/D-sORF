@@ -9,18 +9,20 @@ Installation
    
 git clone https://github.com/nperdi/D-sORF.git
 
-3. Go to D-sORF directory
-   
-  cd D-sORF
+cd D-sORF
 
 2. Create and activate a Conda virtual environment:
+
 conda create --name dsorfEnv python=3.8
+
 conda activate dsorfEnv
 
-3. Install the required dependencies:
+5. Install the required dependencies:
+   
 conda install scikit-learn=1.0.2
 
-4. Run an example to check installation:
+7. Run an example to check installation:
+   
 ./exampleRun.sh
 
 Usage
