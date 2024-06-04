@@ -6,9 +6,11 @@ D-sORF is an alignment-free data mining algorithm based on machine learning. The
 Installation
 ---------------
 1. Clone the repository from GitHub:
+   
 git clone https://github.com/nperdi/D-sORF.git
 
-2. Go to D-sORF directory
+3. Go to D-sORF directory
+   
   cd D-sORF
 
 2. Create and activate a Conda virtual environment:
